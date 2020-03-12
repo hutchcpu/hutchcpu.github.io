@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+   <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <title>Blairsville Fleatique is a premiere area fleatique in Indiana County near Pittsburgh,PA region and Southwestern PA</title>
+        <meta name="keywords" content="fleatique, vendors, antiques, collectibles, vinyl records, home decor, large inventory, neon signs, leather goods, dvds" />
+        <meta name="description" content="Blairsville Fleatique is a retail shop providing services throughout Indiana and Westmoreland counties, near Pittsburgh, PA." />
+    
+        <script src="./js/jquery-3.4.1.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+    
+        <style>
+            body {
+                background-color: #ADD8E6;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container pt-4">
+            <div class="d-flex flex-column flex-md-row p-3 border-bottom box-shadow">
+                <h4 class="mr-auto text-left">Blairsville Fleatique, Inc.</h4>
+                <nav class="text-right">
+                    <a class="p-2 text-info font-weight-bold" href="default.html">Home</a>
+                    <a class="p-2 text-dark font-weight-bold" href="about-us.html">About Us</a>
+                    <a class="p-2 text-dark font-weight-bold" href="contact-us.html">Contact Us</a>
+                </nav>
+            </div>
+            <br>
+
+            <p>Welcome to Blairsville Fleatique! We opened our doors on November 1, 2018 and have been steadily growing with vendors since day one.</p>
+            <p>We have a large inventory of antiques, collectibles, DVDs, vinyl records, tools, neon signs, leather goods and home decor just to name a few.</p>
+            <p>It is easy to become a vendor in our store. We do all of the selling for you. All you need to do is price your items and set up your booth! Booth pricing starts at just $60 per month.</p>
+            <p>Come on in and see why Blairsville Fleatique is becoming one of the premiere fleatiques in the area!</p>
+			<p>We are open 7 days a week from 11:00 am to 6:00 pm and are located at 855 Route 22 Hwy West (across from Tri-Star Motors).</p>
+			<p>Call us at 724-675-8272 or email us at <a href="mailto:blairsvillefleatique@gmail.com">blairsvillefleatique@gmail.com</a> and like us on Facebook!</p>
+        
+            <div id="front-row-images" class="row">
+                <div class="col-4">
+                    <img class="img-fluid rounded" src="img/left.jpg"/>
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid rounded" src="img/middle.jpg" />
+                </div>
+                <div class="col-4">
+                    <img class="img-fluid rounded" src="img/right.jpg" />
+                </div>
+            </div>
+
+            <footer class="pt-4 my-md-5 border-top box-shadow">
+                <div class="text-center">
+                    email: <a href="mailto:blairsvillefleatique@gmail.com">blairsvillefleatique@gmail.com</a>
+                    <br>
+                    855 Route 22 Hwy West ◊ Blairsville, PA 15717
+                    <br>
+                    <br>
+                    &copy;Copyright 2018-2020
+                    <br>
+                    Blairsville Fleatique
+                    <br>
+                    All Rights Reserved.
+                </div>
+            </footer>        
+        </div>
+    </body>
+
+    <script type="text/javascript">
+        function responsiveImages() {
+            var width = $(window).width();
+            var $div = $("#front-row-images");
+
+            var hide = width < 775;
+
+            if (hide) {
+                $div.hide();
+            } else {
+                $div.show();
+            }
+        }
+
+        $(document).ready(function() {
+            responsiveImages();
+
+            $(window).resize(responsiveImages);
+        });
+    </script>
+</html>
